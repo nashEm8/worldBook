@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: azoLight;
+    src: url(../fonts/AzoSans-Light.otf);
+}
+
+@font-face {
+    font-family: azoRegular;
+    src: url(../fonts/AzoSans-Regular.otf);
+}
+
+@font-face {
+    font-family: azoBlack;
+    src: url(../fonts/AzoSans-Black.otf);
+}
+
+section{
+    width: 80%;
+    margin: 5% auto 5% auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.image_box img{
+    width: 150px;
+    height: 200px;
+}
+.details p:nth-child(1){
+    font-family: azoBlack;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(107, 119, 2);
+}
+.details p:nth-child(2){
+    font-family: azoLight;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px 0;
+    font-size: 18px;
+    color: #000;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-family: azoRegular;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(20, 121, 121);
+}
+.details button{
+    font-family: azoLight;
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #15345A;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    margin: 5px 0;
+}
