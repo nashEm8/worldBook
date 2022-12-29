@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #063555;
+    padding: 15px 0;
+}
+
+footer img{
+    width: 150px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.socialNetwork i{
+    font-size: 25px;
+    margin: 0 10px;
+    color: #fff;
+}
