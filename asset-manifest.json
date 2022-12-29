@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/worldBook/static/css/main.48e73838.css",
+    "main.js": "/worldBook/static/js/main.3dcfc245.js",
+    "static/media/AzoSans-Black.otf": "/worldBook/static/media/AzoSans-Black.e619c31b359fb781f904.otf",
+    "static/media/AzoSans-Light.otf": "/worldBook/static/media/AzoSans-Light.69965fd9847cc11789f5.otf",
+    "static/media/AzoSans-Regular.otf": "/worldBook/static/media/AzoSans-Regular.7ae06213eaa5a3574fe1.otf",
+    "static/media/logo.png": "/worldBook/static/media/logo.86c9afcaabde3fd048ba.png",
+    "static/media/logoFooter.png": "/worldBook/static/media/logoFooter.b627448c1faca3b2c19a.png",
+    "index.html": "/worldBook/index.html",
+    "main.48e73838.css.map": "/worldBook/static/css/main.48e73838.css.map",
+    "main.3dcfc245.js.map": "/worldBook/static/js/main.3dcfc245.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48e73838.css",
+    "static/js/main.3dcfc245.js"
+  ]
+}
