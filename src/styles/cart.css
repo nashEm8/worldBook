@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: azoRegular;
+    src: url(../fonts/AzoSans-Regular.otf);
+}
+
+@font-face {
+    font-family: azoLight;
+    src: url(../fonts/AzoSans-Light.otf);
+}
+
+@font-face {
+    font-family: azoBlack;
+    src: url(../fonts/AzoSans-Black.otf);
+}
+
+article{
+    margin: 5% auto 5% auto;
+    height: 90vh;
+    padding: 20px;
+    width: 60%;
+}
+
+article h1{
+    font-family: azoBlack;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #063555;
+}
+
+.cart_box img{
+    width: 50px;
+    height: 50px;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+    margin: 10px 0;
+}
+.cart_img p {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: azoRegular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid #063555;
+    padding-bottom: 5px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: 0;
+    background-color: rgb(194, 231, 255);
+    font-family: azoBlack;
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: #ff0000;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: azoRegular;
+    font-size: 17px;
+}
+
+.cart_box div:nth-child(3) button:hover{
+    background-color: #e22f2f;
+    color: #fff;
+}
+
+.cart_box div:nth-child(3) span{
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: azoRegular;
+    font-size: 17px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-family: azoRegular;
+    margin-top: 20px;
+}
+.total span:nth-child(1){
+    font-size: 2rem;
+    color: #063555;
+    font-weight: bold;
+}
+
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
