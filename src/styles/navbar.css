@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3da3e2;
+}
+
+.my_shop img{
+    width: 200px;
+}
+
+.nav_box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_shop{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: azoRegular;
+    color: #063555;
+    cursor: pointer;
+}
+
+.cart span{
+    text-align: center;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.cart span:nth-child(5){
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    font-family: azoRegular;
+    top: -15px;
+    left: -40px;
+}
