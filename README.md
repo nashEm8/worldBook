@@ -16,4 +16,14 @@ tela do carrinho de compra com os itens escolhidos pelo usuário, recupere essa 
 Pontos importantes: apresentar no carrinho de compra a quantidade de cada produto e o total da compra.
 Abaixo estão exemplos de vitrines dos produtos e de carrinhos de compra que podem ser desenvolvidos.
 </p>
+<br><br>
 
+<h2>Tela inicial: </h2>
+
+![telaIncial](https://user-images.githubusercontent.com/101338996/210024888-34b4e0f6-6b1f-46d4-af3e-41c1228778a9.png)
+
+<br><br>
+
+<h2>Carrinho de compras</h2>
+
+![carrinho](https://user-images.githubusercontent.com/101338996/210024937-349cf272-6b9b-4266-a802-53f4298ad7c0.png)
