@@ -4,6 +4,9 @@
 🔸   Objetivo: O aluno precisa identificar, codificar os recursos disponíveis do ReactJS e aplicar
 para reproduzir o site especificado <br><br>
 
+<b>🔎    Link para visualização:</b> <em><a href="https://nashem8.github.io/worldBook/">WorldBook</a></em></p>
+<br/>
+
 <h2>Atividade Prática</h2>
 <p>
 Nessa atividade prática você deverá criar um carrinho de compra usando o framework ReactJS. Antes de criar
